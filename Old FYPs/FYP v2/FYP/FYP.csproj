@@ -1,0 +1,560 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B957F5E6-9F5A-4DC9-B124-2FAC32766B75}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FYP</RootNamespace>
+    <AssemblyName>FYP</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Constantina\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>B7681365B5E46D174E85C3B74EBF3FA866C87286</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>FYP_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bathroom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bathroom.Designer.cs">
+      <DependentUpon>Bathroom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GirlsRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GirlsRoom.Designer.cs">
+      <DependentUpon>GirlsRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kitchen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kitchen.Designer.cs">
+      <DependentUpon>kitchen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LivingRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LivingRoom.Designer.cs">
+      <DependentUpon>LivingRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="BoyBedroom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BoyBedroom.Designer.cs">
+      <DependentUpon>BoyBedroom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Scores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Scores.Designer.cs">
+      <DependentUpon>Scores.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Bathroom.resx">
+      <DependentUpon>Bathroom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GirlsRoom.resx">
+      <DependentUpon>GirlsRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kitchen.resx">
+      <DependentUpon>kitchen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LivingRoom.resx">
+      <DependentUpon>LivingRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoyBedroom.resx">
+      <DependentUpon>BoyBedroom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Scores.resx">
+      <DependentUpon>Scores.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="FYP_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\web_shapes_pastel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New Picture %2821%29.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11255-blue-room-with-wood-flooring-1920x1080-abstract-wallpaper %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\145501529530798hgkjuuj_converted.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p-trans_converted%2810%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\145501529530798hguhu_converted.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\145512252024634efsdf_converted.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\145588078665722_converted.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3D-font-b-Pools-b-font-font-b-swim-b-font-font-b-Window-b-font.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\145512252024634efsdf.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p-trans.phpfdsfsd.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p-trans.php.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\145501529530798fdf_converted.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\erfesrfse_converted.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dfsdfsf_converted.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\145588078665722_converted %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\somuchnoreproducts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\145501529530798jhjkl_converted.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p-trans_converted%2810%291.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\145501529530798hgkjuuj_converted1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pink.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\145501529530798ghdfgh_converted.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\145512252024634sfsdfd.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\145588078665722_converted %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kjkljl_converted.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p-trans_converted%2811%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3D-font-b-Pools-b-font-font-b-swim-b-font-font-b-Window-b-font1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\145501529530798jkhj_converted.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p-trans_converted%285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\145501529530798jhjo_converted.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\145588078665722_converted %283%291.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\145512252024634.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p-trans_converted%2811%291.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p-trans_converted%287%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Triangle-Kids-Books1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sofa_PNG6963.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p-trans_converted2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\145616171871615_converted.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\books_converted.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11703577-Classic-Kitchen-Room-with-convenience-outlet-Stock-Vector-bathroom-room-empty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\145501529530798_converted%281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\145501529530798mkm_converted.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jjkhnkn_converted.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xfgdfg_converted.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asdedfdf_converted.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asdasdf_converted.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p-trans_converted3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20141_coki57a_01_PE325116.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\145501529530798jkjnhgj_converted.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\145501529530798huujj_converted.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\145616171871615_converted2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p-trans_converted%288%291.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\145616171871615asdasd_converted.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sadsd_converted.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p-trans_converted%2812%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\145616171871615dfssd_converted.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\145616171871615_converted3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\145616171871615_converted %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cartcat-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cartcat-11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frying_pan_PNG83371.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\egg.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\egg1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\egg2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\animated-fire-image-0419.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tumblr_mtbmon8XGM1rb28hgo1_500.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chitchen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f13.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notes.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dfsf_converted.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Xylophone.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Bubbles.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Correct.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Eggs.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Fairy.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Fire.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Meow.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\TeenageDream.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Toilet.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Toy.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Water.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Wrong.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HighScores.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\HighScores.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CircleYellow.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CircleDarkPink.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shelf.gif" />
+    <None Include="Resources\TriangleDarkRed.gif" />
+    <None Include="Resources\TriangleSkyBlue.gif" />
+    <None Include="Resources\TriangleOrange.gif" />
+    <None Include="Resources\TrianglePurple.gif" />
+    <None Include="Resources\TriangleYellow.gif" />
+    <None Include="Resources\TriangleBlue.gif" />
+    <None Include="Resources\TrianglePink.gif" />
+    <None Include="Resources\TriangleDarkBlue.gif" />
+    <None Include="Resources\TriangleRed.gif" />
+    <None Include="Resources\TriangleGreen.gif" />
+    <None Include="Resources\StarSkyblue.gif" />
+    <None Include="Resources\StarYellow.gif" />
+    <None Include="Resources\StarBlue.gif" />
+    <None Include="Resources\StarOrange.gif" />
+    <None Include="Resources\StarPurple.gif" />
+    <None Include="Resources\StarRed.gif" />
+    <None Include="Resources\StarDarkBlue.gif" />
+    <None Include="Resources\StarPink.gif" />
+    <None Include="Resources\StarGreen.gif" />
+    <None Include="Resources\11255-blue-room-with-wood-flooring-1920x1080-abstract-wallpaper %283%292.png" />
+    <None Include="Resources\RectangleOrange.JPG" />
+    <None Include="Resources\RectangleGray.JPG" />
+    <None Include="Resources\SquareDarkPink1.JPG" />
+    <None Include="Resources\SquareDarkGreen.JPG" />
+    <None Include="Resources\SquareSkyBlue1.JPG" />
+    <None Include="Resources\SquareDarkPink.JPG" />
+    <None Include="Resources\SquareBlue.JPG" />
+    <None Include="Resources\RectangleWhite.JPG" />
+    <None Include="Resources\SquareOrange.JPG" />
+    <None Include="Resources\RectangleGreen.JPG" />
+    <None Include="Resources\SquareLightPink.JPG" />
+    <None Include="Resources\SquareYellow.JPG" />
+    <None Include="Resources\SquareSkyBlue.JPG" />
+    <None Include="Resources\SquareDarkPurple.JPG" />
+    <None Include="Resources\SquareRed.JPG" />
+    <None Include="Resources\SquarePurple.JPG" />
+    <None Include="Resources\RectangleYellow.JPG" />
+    <None Include="Resources\PentagonRed.gif" />
+    <None Include="Resources\PentagonBlue.gif" />
+    <None Include="Resources\PentagonGreen.gif" />
+    <None Include="Resources\PentagonYellow.gif" />
+    <None Include="Resources\PentagonDarkPurple.gif" />
+    <None Include="Resources\PentagonPurple.gif" />
+    <None Include="Resources\PentagonPink.gif" />
+    <None Include="Resources\PentagonSkyBlue.gif" />
+    <None Include="Resources\PentagonDarkRed.gif" />
+    <None Include="Resources\OctagonLightPink.gif" />
+    <None Include="Resources\OctagonDarkGreen.gif" />
+    <None Include="Resources\OctagonSkyBlue.gif" />
+    <None Include="Resources\OctagonRed.gif" />
+    <None Include="Resources\OctagonDarkPink.gif" />
+    <None Include="Resources\OctagonGreen.gif" />
+    <None Include="Resources\OctagonYellow.gif" />
+    <None Include="Resources\OctagonOrange.gif" />
+    <None Include="Resources\OctagonBlue.gif" />
+    <None Include="Resources\HexagonYellow.gif" />
+    <None Include="Resources\HexagonPurple.gif" />
+    <None Include="Resources\HexagonDarkGreen.gif" />
+    <None Include="Resources\HexagonPink.gif" />
+    <None Include="Resources\HexagonSkyBlue.gif" />
+    <None Include="Resources\HexagonBlue.gif" />
+    <None Include="Resources\HexagonGreen.gif" />
+    <None Include="Resources\HexagonRed.gif" />
+    <None Include="Resources\HexagonOrange.gif" />
+    <None Include="Resources\11255-blue-room-with-wood-flooring-1920x1080-abstract-wallpaper %283%291.png" />
+    <None Include="Resources\HeartLightPink.gif" />
+    <None Include="Resources\HeartSkyBlue.gif" />
+    <None Include="Resources\HeartOrange.gif" />
+    <None Include="Resources\HeartPurple.gif" />
+    <None Include="Resources\HeartGreen.gif" />
+    <None Include="Resources\HeartYellow.gif" />
+    <None Include="Resources\HeartPink.gif" />
+    <None Include="Resources\HeartRed.gif" />
+    <None Include="Resources\HeartBlue.gif" />
+    <None Include="Resources\DiamondViolet.gif" />
+    <None Include="Resources\DiamondSkyBlue.gif" />
+    <None Include="Resources\DiamondOrange.gif" />
+    <None Include="Resources\DiamondDarkPink.gif" />
+    <None Include="Resources\DiamondRed.gif" />
+    <None Include="Resources\DiamondLightGreen.gif" />
+    <None Include="Resources\DiamondYellow.gif" />
+    <None Include="Resources\DiamondDarkBlue.gif" />
+    <None Include="Resources\DiamondLightPink.gif" />
+    <None Include="Resources\DiamondBlue.gif" />
+    <None Include="Resources\CircleDarkBlue.gif" />
+    <None Include="Resources\CircleLightPink.gif" />
+    <None Include="Resources\CircleLightGreen.gif" />
+    <None Include="Resources\CircleSkyBlue.gif" />
+    <None Include="Resources\CircleGreen.gif" />
+    <None Include="Resources\CircleBlue1.gif" />
+    <None Include="Resources\CircleRed.gif" />
+    <None Include="Resources\CircleViolet.gif" />
+    <None Include="Resources\CircleBlue.gif" />
+    <None Include="Resources\CircleDarkPink1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New Picture.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

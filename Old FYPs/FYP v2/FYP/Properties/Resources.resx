@@ -1,0 +1,628 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="145616171871615_converted (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\145616171871615_converted (3).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SquareLightPink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SquareLightPink.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartPurple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HeartPurple.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="145501529530798mkm_converted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\145501529530798mkm_converted.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HexagonPink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HexagonPink.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HexagonRed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HexagonRed.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SquarePurple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SquarePurple.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p-trans_converted(8)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\p-trans_converted(8)1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RectangleGreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RectangleGreen.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="145501529530798jhjo_converted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\145501529530798jhjo_converted.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CircleLightPink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CircleLightPink.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p-trans.php" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\p-trans.php.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CircleBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CircleBlue.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="145501529530798jkjnhgj_converted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\145501529530798jkjnhgj_converted.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sofa_PNG6963" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sofa_PNG6963.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p-trans_converted2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\p-trans_converted2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HexagonPurple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HexagonPurple.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p-trans_converted(5)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\p-trans_converted(5).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CircleSkyBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CircleSkyBlue.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="egg2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\egg2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chitchen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chitchen.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="egg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\egg.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p-trans_converted(11)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\p-trans_converted(11)1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OctagonGreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OctagonGreen.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="20141_coki57a_01_PE325116" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\20141_coki57a_01_PE325116.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p-trans_converted(12)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\p-trans_converted(12).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="145588078665722_converted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\145588078665722_converted.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wrong" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Wrong.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="145512252024634efsdf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\145512252024634efsdf.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="145588078665722_converted (3)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\145588078665722_converted (3)1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CircleLightGreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CircleLightGreen.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SquareOrange" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SquareOrange.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Correct" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Correct.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Toy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Toy.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="kjkljl_converted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kjkljl_converted.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PentagonBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PentagonBlue.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TriangleDarkBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TriangleDarkBlue.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OctagonSkyBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OctagonSkyBlue.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DiamondLightPink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DiamondLightPink.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cartcat-11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cartcat-11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CircleGreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CircleGreen.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RectangleWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RectangleWhite.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11703577-Classic-Kitchen-Room-with-convenience-outlet-Stock-Vector-bathroom-room-empty" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11703577-Classic-Kitchen-Room-with-convenience-outlet-Stock-Vector-bathroom-room-empty.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="giphy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\giphy.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tumblr_mtbmon8XGM1rb28hgo1_500" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tumblr_mtbmon8XGM1rb28hgo1_500.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HexagonDarkGreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HexagonDarkGreen.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TriangleYellow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TriangleYellow.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="books_converted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\books_converted.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StarSkyblue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StarSkyblue.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sadsd_converted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sadsd_converted.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PentagonYellow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PentagonYellow.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TeenageDream" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\TeenageDream.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DiamondDarkPink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DiamondDarkPink.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CircleDarkBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CircleDarkBlue.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HexagonBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HexagonBlue.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yellow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yellow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Water2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Water.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="145512252024634sfsdfd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\145512252024634sfsdfd.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HexagonSkyBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HexagonSkyBlue.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SquareSkyBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SquareSkyBlue.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="New Picture (21)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New Picture (21).bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DiamondViolet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DiamondViolet.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11255-blue-room-with-wood-flooring-1920x1080-abstract-wallpaper (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11255-blue-room-with-wood-flooring-1920x1080-abstract-wallpaper (3)2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="erfesrfse_converted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\erfesrfse_converted.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SquareRed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SquareRed.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DiamondLightGreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DiamondLightGreen.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="notes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\notes.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OctagonDarkGreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OctagonDarkGreen.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PentagonSkyBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PentagonSkyBlue.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PentagonPurple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PentagonPurple.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OctagonBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OctagonBlue.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CircleDarkPink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CircleDarkPink.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PentagonDarkPurple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PentagonDarkPurple.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SquareBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SquareBlue.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RectangleYellow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RectangleYellow.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="web_shapes_pastel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\web_shapes_pastel.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StarOrange" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StarOrange.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DiamondOrange" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DiamondOrange.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CircleViolet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CircleViolet.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StarBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StarBlue.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TriangleOrange" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TriangleOrange.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartRed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HeartRed.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CircleRed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CircleRed.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="145616171871615dfssd_converted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\145616171871615dfssd_converted.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SquareDarkPink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SquareDarkPink.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="145501529530798hguhu_converted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\145501529530798hguhu_converted.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="145616171871615asdasd_converted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\145616171871615asdasd_converted.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OctagonRed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OctagonRed.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StarGreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StarGreen.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StarRed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StarRed.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="145501529530798_converted(1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\145501529530798_converted(1).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PentagonPink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PentagonPink.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Fire.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Toilet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Toilet.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SquareDarkPurple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SquareDarkPurple.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartYellow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HeartYellow.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="145616171871615_converted2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\145616171871615_converted2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OctagonLightPink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OctagonLightPink.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TriangleSkyBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TriangleSkyBlue.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="somuchnoreproducts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\somuchnoreproducts.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="145501529530798jhjkl_converted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\145501529530798jhjkl_converted.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HexagonYellow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HexagonYellow.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="145512252024634" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\145512252024634.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="145501529530798jkhj_converted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\145501529530798jkhj_converted.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asdedfdf_converted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asdedfdf_converted.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xfgdfg_converted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xfgdfg_converted.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DiamondSkyBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DiamondSkyBlue.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SquareYellow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SquareYellow.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Eggs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Eggs.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="p-trans.phpfdsfsd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\p-trans.phpfdsfsd.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StarYellow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StarYellow.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p-trans_converted3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\p-trans_converted3.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartPink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HeartPink.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TriangleRed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TriangleRed.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartSkyBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HeartSkyBlue.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PentagonRed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PentagonRed.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartLightPink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HeartLightPink.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SquareDarkGreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SquareDarkGreen.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shelf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shelf.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frying_pan_PNG83371" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frying_pan_PNG83371.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p-trans_converted(7)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\p-trans_converted(7).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="145616171871615_converted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\145616171871615_converted.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DiamondYellow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DiamondYellow.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bubbles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Bubbles.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DiamondRed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DiamondRed.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jjkhnkn_converted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jjkhnkn_converted.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="animated-fire-image-0419" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\animated-fire-image-0419.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RectangleOrange" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RectangleOrange.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="f13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f13.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StarDarkBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StarDarkBlue.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fairy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Fairy.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pink.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TriangleGreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TriangleGreen.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OctagonOrange" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OctagonOrange.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartOrange" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HeartOrange.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DiamondDarkBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DiamondDarkBlue.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PentagonGreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PentagonGreen.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p-trans_converted(10)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\p-trans_converted(10)1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\white.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3D-font-b-Pools-b-font-font-b-swim-b-font-font-b-Window-b-font" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3D-font-b-Pools-b-font-font-b-swim-b-font-font-b-Window-b-font.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="145501529530798fdf_converted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\145501529530798fdf_converted.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="145501529530798huujj_converted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\145501529530798huujj_converted.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StarPink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StarPink.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CircleYellow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CircleYellow.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="egg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\egg1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="145588078665722_converted (5)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\145588078665722_converted (5).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frying_pan_PNG8337" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frying_pan_PNG8337.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TriangleDarkRed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TriangleDarkRed.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TriangleBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TriangleBlue.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Meow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Meow.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="HeartBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HeartBlue.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PentagonDarkRed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PentagonDarkRed.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="145501529530798ghdfgh_converted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\145501529530798ghdfgh_converted.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartGreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HeartGreen.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HexagonGreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HexagonGreen.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Xylophone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Xylophone.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Triangle-Kids-Books1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Triangle-Kids-Books1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asdasdf_converted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asdasdf_converted.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OctagonDarkPink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OctagonDarkPink.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dfsdfsf_converted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dfsdfsf_converted.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TrianglePurple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TrianglePurple.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TrianglePink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TrianglePink.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RectangleGray" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RectangleGray.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StarPurple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StarPurple.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DiamondBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DiamondBlue.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HexagonOrange" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HexagonOrange.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OctagonYellow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OctagonYellow.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="145501529530798hgkjuuj_converted1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\145501529530798hgkjuuj_converted1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="New Picture" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New Picture.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
